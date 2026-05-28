@@ -131,7 +131,7 @@ async def view_submission(call: CallbackQuery):
         f"{threats_line}"
         f"💥 Отправитель: @{esc(d['username'])} (#{d['user_id']})\n"
         f"━═━═━═━═━═━═━═━═━\n"
-        f"👉 Кто слил:\n@ТУТ\_ТГ\_КАНАЛ"
+        f"👉 Кто слил:\n@ТУТ_ТГ_КАНАЛ"
     )
 
     kb_rows = []
