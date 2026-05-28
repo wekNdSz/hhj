@@ -11,6 +11,9 @@ import os
 import os
 TOKEN = os.getenv("BOT_TOKEN")
 
+if not TOKEN:
+    raise ValueError("BOT_TOKEN не задан!")
+    
 ADMIN_ID = 7899575088
 
 bot = Bot(token=TOKEN)
