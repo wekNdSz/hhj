@@ -6,8 +6,9 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.filters import CommandStart, Command
+import os
 
-TOKEN = "8830836735:AAFKKR-WOZR4EBXa1z1jzM5QAOLu54-WkP4"
+TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 7899575088
 
 bot = Bot(token=TOKEN)
